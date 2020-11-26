@@ -7,6 +7,8 @@
 #header-background{
     background-image: url("../img/Rectangle 43.jpg");
     height: 1080px;
+    background-repeat: no-repeat;
+
 }
 #top-flex{
     display: flex;
@@ -201,8 +203,7 @@
     flex-direction: column;
     width: 1401px;
     height: 934px;
-    margin-left: 200px;
-    margin-top: 150px;
+    margin: 0 auto;
 }
 #hotel-flex-top{
     display: flex;
@@ -259,9 +260,160 @@
     color: #000000;
 }
 #hotel-text{
-    margin-top: 2500px;
+    margin-top: 2400px;
 }
 #hotel-under-text{
-    margin-top: 2520px;
+    margin-top: 2400px;
 }
+
+#price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 1305px;
+    height: 1561px;
+    margin: 0 auto;
+}
+#price-left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 1100px;
+    width: 500px;
+    margin-top: 200px;
+}
+#gold-text{
+    top: 4700px;
+}
+#gold-text1{
+    top: 5300px;
+}
+#gold-text2{
+    margin-left: 150px;
+    top: 5450px;
+}
+#under-text{
+    top: 4820px;
+}
+#under-text1{
+    margin-left: 50px;
+    top: 5410px;
+}
+#under-text2{
+    top: 5560px;
+    margin-left: 150px;
+}
+
+#price-right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 900px;
+    width: 500px;
+}
+.text-price{
+    width: 530px;
+    height: 63px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+
+}
+#flyball1{
+    position: absolute;
+    width: 73px;
+    height: 108px;
+    left: 1300px;
+    top: 4900px;}
+#flyball2{
+    position: absolute;
+    width: 73px;
+    height: 108px;
+    left: 1217px;
+    top: 5021px;
+}
+#flyball3{
+    position: absolute;
+    width: 206px;
+    height: 305px;
+    left: 1400px;
+    top: 4880px;
+}
+#form{
+    top: 100px;
+}
+
+#inp1{
+    width: 383px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    box-sizing: border-box;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+#inp2{
+    width: 383px;
+    height: 50px;
+    margin-top: 5px;
+
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    box-sizing: border-box;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+#button{
+    width: 280px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    box-sizing: border-box;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+#button1{
+    width: 280px;
+    height: 50px;
+    margin-top: 15px;
+
+    background: #FFFFFF;
+    border: 1px solid #E2AB3F;
+    box-sizing: border-box;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+#contact{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+
 

@@ -39,18 +39,9 @@
 //     slides[slideIndex - 1].style.display = "block";
 // }
 
-let previous = document.getElementById('previous')
-let next = document.getElementById('next');
+let btn = document.getElementById('btn1');
+btn.onclick = () => {
+    alert('work')
+}
 
-let img1 = document.getElementById('img1')
-let img2  = document.getElementById('img2')
-let img3 = document.getElementById('img3');
 
-previous.onclick(()=>{
-    img1.style.opacity = '0';
-    img3.style.opacity = '0';
-    img1.style.opacity = '1'
-})
-next.onclick(()=>{
-
-})
